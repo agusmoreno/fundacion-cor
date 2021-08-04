@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+.section {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  
+.section:hover {
+    color: #ffffff;
+    background-color: #659839;
+    border-radius: 10px 10px 10px 10px; }
+.nav-donar {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff!important;
+    background-color: #659839;
+    border-radius: 10px 10px 10px 10px;
+}
+.button-donar {
+    color: #ffffff!important;
+    background-color: #659839;
+    
+}
+.banner-index {
+    background-image: url("../media/frente-hogar-cut.jpg");
+}
