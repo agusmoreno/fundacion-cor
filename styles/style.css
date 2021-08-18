@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 * {
     margin: 0;
     padding: 0; }
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  font-size: large;
   
+}
 .section {
     color: #000000;
     font-weight: bold;
@@ -27,33 +33,56 @@
     border: none;   
     font-weight: bold;
 }
-.banner-index {
-    background-image: url("../media/frente-hogar-cut.jpg");
-    background-repeat: no-repeat;
-    height: 20rem;
-    width: 100%;
-    justify-self: center;
+
+   
+.footer {
+  background-color: #659839;
 }
-.img-wrapper {
-    position: relative;
+.profile {
+  object-fit: cover;
+  border-radius: 50%;
+}
+h2 span {
+  background: #fff;
+  padding: 0 10px; 
   }
+
+h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #659839;
+  line-height: 0.1em;
+  margin: 10px 0 10px;
+  color: #659839; 
   
-  .img-responsive {
-    width: 100%;
-    height: 20rem;
-  }
-  
-  .img-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  .img-overlay:before {
-    content: ' ';
-    display: block;
-    height: 50%;
-  }
+}
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.carousel-control-next,
+ .carousel-control-prev {
+  filter: invert(100%);
+  height: 75%;
+}
+.padding {
+  padding-top: 150px;
+}
+.padding-form {
+  padding-top: 0;
+}
+.name {
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.cargo {
+  font-size: medium;
+  margin-bottom: 1px;
+}
+.home {
+  height: 75%;
+}
+h1, h3 {
+  color: #659839;
+  font-weight: bold;
+}
