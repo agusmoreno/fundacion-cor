@@ -54,7 +54,7 @@ h2 {
 .carousel-control-next,
  .carousel-control-prev {
   filter: invert(100%);
-  height: 75%;
+  
 }
 .padding {
   padding-top: 150px;
@@ -71,9 +71,12 @@ h2 {
   margin-bottom: 1px;
 }
 .home {
-  height: 75%;
+  
 }
 h1, h3 {
   color: #659839;
   font-weight: bold;
 }
+ .padding-prueba {
+   padding-bottom: 2rem;
+ }
