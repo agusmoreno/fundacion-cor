@@ -18,16 +18,16 @@ body {
   
 .section:hover {
     color: #ffffff;
-    background-color: #659839;
+    background-color: #0EAF71;
     border-radius: 10px 10px 10px 10px; }
 .nav-donar {
   color: #ffffff!important;
-  background-color: #659839;
+  background-color: #0EAF71;
   border-radius: 10px 10px 10px 10px;
 }
  
 .footer {
-  background-color: #659839;
+  background-color: #0EAF71;
 }
 .profile {
   object-fit: cover;
@@ -41,10 +41,10 @@ h2 span {
 h2 {
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid #659839;
+  border-bottom: 1px solid #0EAF71;
   line-height: 0.1em;
   margin: 10px 0 10px;
-  color: #659839; 
+  color: #0EAF71; 
   
 }
 .container {
@@ -72,7 +72,7 @@ h2 {
 }
 
 h1, h3 {
-  color: #659839;
+  color: #0EAF71;
   font-weight: bold;
 }
  .padding-prueba {
