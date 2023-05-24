@@ -71,10 +71,13 @@ h2 {
   margin-bottom: 1px;
 }
 
-h1, h3 {
+h1, h3, .title {
   color: #0EAF71;
   font-weight: bold;
 }
  .padding-prueba {
    padding-bottom: 2rem;
+ }
+ .slogan {
+  padding-top: 2rem;
  }
