@@ -75,6 +75,9 @@ h1, h3, .title {
   color: #0EAF71;
   font-weight: bold;
 }
+.title {
+  font-size: 32px;
+}
  .padding-prueba {
    padding-bottom: 2rem;
  }
