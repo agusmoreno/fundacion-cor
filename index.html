@@ -31,6 +31,23 @@
             });
         }
     </script>
+    <script>
+      // Get the elements by their ID
+      window.onload=function(){
+      var popup = document.getElementById("popup");
+      var popupWindow = document.getElementById("popup-window");
+      var closeButton = document.getElementById("close-button");
+      // Show the pop-up window when the link is clicked
+      popup.addEventListener("click", function(event) {
+        event.preventDefault();
+        popupWindow.style.display = "block";
+      });
+      // Hide the pop-up window when the close button is clicked
+      closeButton.addEventListener("click", function() {
+        popupWindow.style.display = "none";
+      });
+      }
+    </script> 
 </head>
 
 <body>
@@ -142,7 +159,7 @@
       <div class="row gx-1 justify-content-center">
         <div class="col-12">
           <p>En la Fundación COR (corazón en latín) nos dedicamos a trazar un proyecto de vida para los más de 20 niños, niñas y adolescentes que hoy viven en nuestro Hogar y reciben identidad, casa, alimento, vestimenta, escolaridad, ayuda psicológica, recreación, vinculación con familias y por sobre todo, amor y afecto, anclajes fundamentales para un pleno desarrollo.</p>
-          <p>La Fundación COR funciona con un Consejo de Administración y dos equipos (uno técnico y otro de mantenimiento). Nuestro equipo técnico está compuesto por psicologas, trabajadoras sociales y psicopedagogas que velan para para que los chicos puedan valorarse y superarse, mientras se los acompaña en el proceso de re vinculación familiar o adopción. Del mismo modo contamos con más de diez operadores y un voluntariado que colabora con la recreación de los niños y niñas, gestiones de recaudación de fondos y donaciones para la sustentabilidad del Hogar.</p>
+          <p>La Fundación COR funciona con un Consejo de Administración y dos equipos (uno técnico y otro de mantenimiento). Nuestro equipo técnico está compuesto por psicologas, trabajadoras sociales y psicopedagogas que velan para que los chicos puedan valorarse y superarse, mientras se los acompaña en el proceso de re vinculación familiar o adopción. Del mismo modo contamos con más de diez operadores y un voluntariado que colabora con la recreación de los niños y niñas, gestiones de recaudación de fondos y donaciones para la sustentabilidad del Hogar.</p>
         </div>
       </div>
     </div>
@@ -195,7 +212,7 @@
 
         <div class="col-lg-2 col-md-6 text-center">
           <p class="name">Liliana Zgot</p>
-          <p class="cargo">Tesorera</p>
+          <p class="cargo">Consejera</p>
         </div>
     
       </div>
@@ -205,7 +222,7 @@
     
         <div class="col-lg-2 col-md-6 text-center">
           <p class="name">Roxana Lijó</p>
-          <p class="cargo">Tesorera</p>
+          <p class="cargo">Consejera</p>
         </div>
     
         <div class="col-lg-2 col-md-6 text-center">
@@ -581,7 +598,7 @@
           <div class="col-3">
           </div>
           <div class="col-6">
-            <button type="submit" class="btn btn-success button-donar">Enviar</button>
+            <button type="submit" class="btn btn-success button-donar" id="popup">Enviar</button>
           </div>
           <div class="col-3">
           </div>
@@ -589,7 +606,10 @@
       </div>
     </form>
   </div>
-
+  <div id="popup-window">
+    <p>Gracias por tu interes en formar parte de nuestro equipo de voluntarios, pronto nos pondremos en contacto con vos</p>
+    <button class="btn btn-success button-donar" id="close-button">Cerrar</button>
+  </div>
   <footer class="footer">
     <div class="container">
       <div class="row gx-1 ">
