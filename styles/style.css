@@ -84,7 +84,7 @@ h1, h3, .title {
  .slogan {
   padding-top: 2rem;
  }
- #popup-window {
+ .popup-window {
   position: fixed;
   width: 300px;
   height: 200px;
